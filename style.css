@@ -1,0 +1,74 @@
+header {
+  /* display: flex; justify-content: center; allineano al centro gli elementi all'interno del tag */
+  display: flex;
+  justify-content: center;
+  border: 1px solid orangered;
+}
+
+aside {
+  float: left;
+  width: 250px;
+  border: 1px solid orange;
+}
+
+nav {
+  display: flex;
+  justify-content: left;
+}
+
+#logo-menu {
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu {}
+
+.menu,
+.sottomenu {
+  /* list-style: none; toglie il pallino a sinistra dell'elemento lista */
+  list-style: none;
+  border: 1px solid yellow;
+}
+
+.menu {
+  background-color: black;
+  width: 250px;
+}
+
+.sottomenu {
+  background-color: rgb(46, 46, 46);
+  border: 1px solid yellowgreen;
+  margin-left: 25px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.page {
+  border: 1px solid red;
+  position: relative;
+  text-align: center;
+}
+
+.img-page {
+  border: 2px solid red;
+}
+
+p {
+  border: 2px solid orange;
+  text-align: left;
+}
+
+footer {
+  border: 1px solid orange;
+}
